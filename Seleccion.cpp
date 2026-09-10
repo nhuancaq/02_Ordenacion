@@ -16,3 +16,15 @@ int main(){
         numeros[i] = numeros[min];
         numeros[min] = aux;
     }
+cout<<" Orden Ascendente: ";
+    for(i=0;i<5;i++){
+        cout<<numeros[i]<<" ";
+    }
+    cout<<"\nOrden Descendente: ";
+    for(i=4;i>=0;i--){
+        cout<<numeros[i]<<" ";
+    }
+
+    getch();
+    return 0;
+}
